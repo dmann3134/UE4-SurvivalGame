@@ -575,3 +575,643 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.07.10-19.44.18:212][  0]LogSlate: Took 0.000365 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2019.07.10-19.44.19:458][  4]LogSlate: Took 0.000430 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2019.07.10-19.47.33:331][863]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.14-17.17.38:343][807]LogHttp: Warning: 0000019EEC53F380: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.14-17.17.38:353][807]LogHttp: Warning: 0000019EEC53F380: libcurl info message cache 0 (Connection 2233 seems to be dead!)
+[2019.07.14-17.17.38:354][807]LogHttp: Warning: 0000019EEC53F380: libcurl info message cache 1 (Closing connection 2233)
+[2019.07.14-17.17.38:354][807]LogHttp: Warning: 0000019EEC53F380: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.14-17.17.38:354][807]LogHttp: Warning: 0000019EEC53F380: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.14-17.17.38:354][807]LogHttp: Warning: 0000019EEC53F380: libcurl info message cache 4 (Closing connection 2234)
+[2019.07.14-17.17.38:673][808]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBF1B3C73-4D94-144A-8136-00A01F3497F5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=83cd1a98478289e783a54bba5eec3a02%7Cb424d19512074a68804b593129c16319%7Cb7511281-9631-499a-939a-12e39eae2278&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.15-19.30.02:925][845]LogBlueprint: Warning: [Compiler AB_Knight] Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2019.07.15-19.30.02:927][845]LogBlueprint: Warning: [Compiler AB_Knight] Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2019.07.15-19.30.02:928][845]LogBlueprint: Warning: [Compiler AB_Knight] Node  Result  uses potentially thread-unsafe call  Get Movement Component . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2019.07.15-19.30.02:928][845]LogBlueprint: Warning: [Compiler AB_Knight] Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2019.07.15-19.30.02:928][845]LogBlueprint: Warning: [Compiler AB_Knight] Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2019.07.15-19.30.02:928][845]LogBlueprint: Warning: [Compiler AB_Knight] Node  Result  uses potentially thread-unsafe call  Get Movement Component . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2019.07.15-19.30.02:940][845]LogBlueprint: Warning: [Compiler AB_Knight] [1150.78] Compile of AB_Knight successful, but with 6 Warning(s) [in 193 ms] (/Game/Assets/Knight/AB_Knight.AB_Knight)
+[2019.07.15-19.30.03:100][845]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Assets/Knight/AB_Knight.AB_Knight
+[2019.07.15-19.30.03:283][845]LogProperty: Warning: Serialized Class /Script/Engine.Skeleton for a property of Class /Script/Engine.SkeletalMesh. Reference will be nullptred.
+    Property = SoftObjectProperty /Script/Engine.PhysicsAsset:PreviewSkeletalMesh
+    Item = Skeleton /Game/Assets/Knight/Skeleton_KnightGirl.Skeleton_KnightGirl
+[2019.07.15-19.30.03:641][845]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0058 seconds. Added 1 classes and 2 folders.
+[2019.07.15-19.30.04:036][845]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.15-19.30.04:040][845]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	AB_Knight_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.AB_Knight_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:00EE
+[2019.07.15-19.30.04:041][845]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_Knight_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.AB_Knight_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:011C
+[2019.07.15-19.30.04:060][845]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0011 seconds. Added 1 classes and 0 folders.
+[2019.07.15-19.30.04:589][845]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0029 seconds. Added 121 classes and 0 folders.
+[2019.07.15-19.30.05:769][845]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.07.15-19.30.06:233][845]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	AB_Knight_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.AB_Knight_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:00EE
+[2019.07.15-19.30.06:233][845]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_Knight_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.AB_Knight_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:011C
+[2019.07.15-19.30.06:371][845]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	AB_Knight_C /Engine/Transient.World_5:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AB_Knight_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:00EE
+[2019.07.15-19.30.06:371][845]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_Knight_C /Engine/Transient.World_5:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AB_Knight_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:011C
+[2019.07.15-19.30.06:396][845]LogSlate: Took 0.000980 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.07.15-19.30.06:656][846]LogSlate: Took 0.001025 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.07.15-19.30.06:725][847]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	AB_Knight_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.AB_Knight_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:00EE
+[2019.07.15-19.30.06:725][847]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_Knight_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.AB_Knight_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:011C
+[2019.07.15-19.30.06:780][848]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	AB_Knight_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.AB_Knight_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:00EE
+[2019.07.15-19.30.06:781][848]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_Knight_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.AB_Knight_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:011C
+[2019.07.15-19.30.06:804][849]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	AB_Knight_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.AB_Knight_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:00EE
+[2019.07.15-19.30.06:804][849]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_Knight_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.AB_Knight_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:011C
+[2019.07.15-19.30.06:827][850]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	AB_Knight_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.AB_Knight_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:00EE
+[2019.07.15-19.30.06:827][850]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_Knight_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.AB_Knight_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:011C
+[2019.07.15-19.30.06:890][851]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	AB_Knight_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.AB_Knight_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:00EE
+[2019.07.15-19.30.06:890][851]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_Knight_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.AB_Knight_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:011C
+[2019.07.15-19.30.06:916][852]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	AB_Knight_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.AB_Knight_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:00EE
+[2019.07.15-19.30.26:505][262]LogAssetEditorManager: Opening Asset editor for BlendSpace /Game/Assets/Knight/MovementBlendSpace.MovementBlendSpace
+[2019.07.15-19.30.26:516][262]LogBlueprintActionDatabase: Requesting refresh due to module change: AnimationEditor (loaded)
+[2019.07.15-19.30.26:536][262]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.15-19.30.26:588][262]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.07.15-19.30.27:361][262]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.07.15-19.31.13:681][866]LogSlate: Window 'KnightAttackMontage' being destroyed
+[2019.07.15-19.31.20:795][668]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.15-19.31.20:808][668]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2019.07.15-19.31.20:809][668]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.15-19.31.20:815][668]PIE: New page: PIE session: TestLevel (Jul 15, 2019, 5:31:20 AM)
+[2019.07.15-19.31.20:841][668]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2019.07.15-19.31.20:857][668]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015458s)
+[2019.07.15-19.31.20:858][668]LogAIModule: Creating AISystem for world TestLevel
+[2019.07.15-19.31.20:863][668]LogPlayLevel: PIE: World Init took: (0.006317s)
+[2019.07.15-19.31.20:864][668]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.022745s)
+[2019.07.15-19.31.20:968][668]LogUObjectHash: Compacting FUObjectHashTables data took   7.14ms
+[2019.07.15-19.31.20:981][668]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.15-19.31.21:022][668]LogInit: FAudioDevice initialized.
+[2019.07.15-19.31.21:145][668]LogLoad: Game class is 'KGGameMode_C'
+[2019.07.15-19.31.21:147][668]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2019.07.15-12.31.21
+[2019.07.15-19.31.21:148][668]LogWorld: Bringing up level for play took: 0.001681
+[2019.07.15-19.31.21:176][668]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2019.07.15-19.31.21:182][668]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2019.07.15-19.31.21:182][668]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2019.07.15-19.31.21:192][668]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 1.036
+[2019.07.15-19.31.21:194][668]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2019.07.15-19.31.28:078][405]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-19.31.28:172][416]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2019.07.15-19.31.28:172][416]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-19.31.28:203][416]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.15-19.31.28:203][416]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2019.07.15-19.31.28:265][416]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-19.31.28:320][416]LogUObjectHash: Compacting FUObjectHashTables data took   6.86ms
+[2019.07.15-19.31.28:336][417]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.07.15-19.32.02:547][123]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Assets/Knight/Swing1_End.Swing1_End
+[2019.07.15-19.32.02:547][123]LogAnimationCompression: Recompressing (AnimSequence /Game/Assets/Knight/Swing1_End.Swing1_End) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.07.15-19.34.21:545][343]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.07.15-19.36.33:353][488]Cmd: TRANSACTION UNDO
+[2019.07.15-19.36.33:353][488]LogEditorTransaction: Undo Remove Slot
+[2019.07.15-19.36.33:563][488]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.15-19.36.33:565][488]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.15-19.36.33:724][493]Cmd: TRANSACTION UNDO
+[2019.07.15-19.36.33:724][493]LogEditorTransaction: Undo Add Slot
+[2019.07.15-19.36.33:902][493]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.15-19.36.33:904][493]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.15-19.39.37:533][539]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-19.39.37:634][540]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Assets/Knight/Player_Attack_2.Player_Attack_2
+[2019.07.15-19.39.37:634][540]LogAnimationCompression: Recompressing (AnimSequence /Game/Assets/Knight/Player_Attack_2.Player_Attack_2) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.07.15-19.39.41:476][957]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Assets/Knight/Swing2_End.Swing2_End
+[2019.07.15-19.39.41:476][957]LogAnimationCompression: Recompressing (AnimSequence /Game/Assets/Knight/Swing2_End.Swing2_End) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.07.15-19.42.19:130][318]LogUObjectHash: Compacting FUObjectHashTables data took   5.27ms
+[2019.07.15-19.42.19:131][318]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestLevel' took 0.095
+[2019.07.15-19.42.19:134][318]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Knight/Skeleton_KnightGirl] ([1] browsable assets)...
+[2019.07.15-19.42.19:134][318]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Knight/Skeleton_KnightGirl]
+[2019.07.15-19.42.19:165][318]LogSavePackage: Moving '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Saved/Skeleton_KnightGirl_Auto1EC6ABB5F47802102108292B0E8C30F37.tmp' to '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Saved/Autosaves/Game/Assets/Knight/Skeleton_KnightGirl_Auto1.uasset'
+[2019.07.15-19.42.19:173][318]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Knight/KnightAttackMontage] ([1] browsable assets)...
+[2019.07.15-19.42.19:192][318]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/Assets/Knight/KnightAttackMontage.KnightAttackMontage]
+[2019.07.15-19.42.19:192][318]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Knight/KnightAttackMontage]
+[2019.07.15-19.42.19:240][318]LogSavePackage: Moving '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Saved/KnightAttackMontage_Auto18194647A4C08ED1AC2746E94D07023F7.tmp' to '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Saved/Autosaves/Game/Assets/Knight/KnightAttackMontage_Auto1.uasset'
+[2019.07.15-19.42.19:244][318]LogFileHelpers: Auto-saving content packages took 0.112
+[2019.07.15-19.42.24:390][334]LogSavePackage: Moving '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Saved/KnightAttackMontage9A699C82429D57C4778EF79C4B7B49BB.tmp' to '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Content/Assets/Knight/KnightAttackMontage.uasset'
+[2019.07.15-19.42.35:681][564]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/KGCharacterBase.KGCharacterBase
+[2019.07.15-19.46.24:213][203]BlueprintLog: New page: Compile KGCharacterBase
+[2019.07.15-19.46.24:490][203]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2019.07.15-19.46.25:196][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/KGCharacterBase" FILE="../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Content/Blueprints/KGCharacterBase.uasset" SILENT=true
+[2019.07.15-19.46.25:248][274]LogSavePackage: Moving '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Saved/KGCharacterBase225CD2B04D4E8777DB24AD9C206B9D64.tmp' to '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Content/Blueprints/KGCharacterBase.uasset'
+[2019.07.15-19.46.39:672][628]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/KGPlayerControllerBase.KGPlayerControllerBase
+[2019.07.15-19.47.01:442][735]BlueprintLog: New page: Compile KGPlayerControllerBase
+[2019.07.15-19.47.01:727][735]LogUObjectHash: Compacting FUObjectHashTables data took   4.59ms
+[2019.07.15-19.47.05:026][115]BlueprintLog: New page: Compile KGPlayerControllerBase
+[2019.07.15-19.47.05:334][115]LogUObjectHash: Compacting FUObjectHashTables data took   4.59ms
+[2019.07.15-19.50.28:807][460]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\dmann\Documents\UE4-SurvivalGame\SurvivalGame\Survival Assets\S_Sword_Basic.FBX)
+[2019.07.15-19.50.28:849][460]LogFbx: Loading FBX Scene from C:\Users\dmann\Documents\UE4-SurvivalGame\SurvivalGame\Survival Assets\S_Sword_Basic.FBX
+[2019.07.15-19.50.28:860][460]LogFbx: FBX Scene Loaded Succesfully
+[2019.07.15-19.50.37:061][460]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.07.15-19.50.46:013][ 96]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\dmann\Documents\UE4-SurvivalGame\SurvivalGame\Survival Assets\S_Sword_Basic.FBX)
+[2019.07.15-19.50.46:027][ 96]LogFbx: Loading FBX Scene from C:\Users\dmann\Documents\UE4-SurvivalGame\SurvivalGame\Survival Assets\S_Sword_Basic.FBX
+[2019.07.15-19.50.46:034][ 96]LogFbx: FBX Scene Loaded Succesfully
+[2019.07.15-19.50.48:487][ 96]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.07.15-19.50.48:917][ 96]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.50.49:011][ 96]LogStaticMesh: Building static mesh S_Sword_Basic...
+[2019.07.15-19.50.49:030][ 96]LogBlueprintActionDatabase: Requesting refresh due to module change: MeshBuilder (loaded)
+[2019.07.15-19.50.49:064][ 96]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/Weapons/S_Sword_Basic.S_Sword_Basic
+[2019.07.15-19.50.49:070][ 96]LogStaticMesh: Warning: S_Sword_Basic has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.07.15-19.50.49:070][ 96]LogStaticMesh: Warning: S_Sword_Basic has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.07.15-19.50.49:090][ 96]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.07.15-19.50.49:090][ 96]FBXImport: Warning: S_Sword_Basic has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2019.07.15-19.50.49:090][ 96]FBXImport: Warning: S_Sword_Basic has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2019.07.15-19.50.56:161][573]LogSlate: Window 'Message Log' being destroyed
+[2019.07.15-19.50.56:166][573]LogSlate: Window 'Message Log' being destroyed
+[2019.07.15-19.50.57:716][745]LogAssetEditorManager: Opening Asset editor for Material /Game/Assets/Weapons/M_Weapons_Metal.M_Weapons_Metal
+[2019.07.15-19.50.57:722][745]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.50.57:849][745]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.50.57:877][745]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.50.57:909][745]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.50.57:909][745]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.50.57:922][745]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.07.15-19.50.59:455][868]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.50.59:455][868]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.50.59:455][868]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.50.59:455][868]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.51.07:181][780]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.51.07:203][780]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.51.07:204][780]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.51.07:208][780]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.07.15-19.51.07:239][780]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.51.07:614][817]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.51.07:956][848]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.51.07:990][848]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.07.15-19.51.08:025][848]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.51.08:063][849]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.51.08:199][863]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.51.09:067][953]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.51.09:067][953]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.51.09:067][953]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.51.09:067][953]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.51.09:231][972]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.51.09:248][972]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.51.09:248][972]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.51.09:252][972]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.07.15-19.51.09:283][972]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.51.09:636][  7]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.51.10:005][ 38]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.51.10:653][107]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.51.10:654][107]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.51.10:654][107]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.51.10:654][107]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.51.13:343][418]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.51.13:370][418]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.51.13:370][418]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.51.18:155][968]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.51.18:186][969]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.51.18:186][969]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.51.18:950][ 48]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.51.18:950][ 48]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.51.18:950][ 48]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.51.18:950][ 48]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.51.19:517][114]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.51.19:559][115]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.51.19:559][115]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.51.20:327][196]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.51.20:344][196]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.07.15-19.51.20:374][197]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.51.20:374][197]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.51.21:077][266]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.51.21:077][266]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.51.21:077][266]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.51.21:077][266]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.51.21:470][311]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.51.21:510][312]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.51.21:510][312]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.51.22:217][389]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.51.22:217][389]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.51.22:217][389]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.51.22:217][389]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.51.22:473][419]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.51.22:489][419]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.07.15-19.51.22:520][420]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.51.22:520][420]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.51.23:255][486]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.51.23:255][486]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.51.23:255][486]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.51.23:255][486]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.51.28:023][892]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.51.28:061][893]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.51.28:061][893]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.51.28:821][972]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.51.28:821][972]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.51.28:821][972]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.51.28:821][972]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.51.28:838][974]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (51.739 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.07.15-19.51.29:093][  4]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.51.29:125][  5]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.51.29:125][  5]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.51.29:830][ 79]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.51.29:830][ 79]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.51.29:830][ 79]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.51.29:830][ 79]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.51.30:618][171]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.51.30:665][172]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.51.30:665][172]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.51.31:392][249]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.51.31:392][249]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.51.31:392][249]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.51.31:392][249]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.51.32:530][384]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.51.32:567][385]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.51.32:567][385]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.51.33:280][453]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.51.33:280][453]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.51.33:280][453]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.51.33:280][453]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.51.33:974][535]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.51.34:020][536]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.51.34:021][536]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.51.34:703][609]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.51.34:703][609]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.51.34:703][609]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.51.34:703][609]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.51.42:988][579]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.51.43:044][580]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.51.43:044][580]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.51.43:763][653]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.51.43:764][653]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.51.43:764][653]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.51.43:764][653]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.51.48:392][199]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.51.48:430][200]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.51.48:430][200]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.51.49:258][286]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.51.49:292][287]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.51.49:292][287]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.51.50:036][368]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.51.50:036][368]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.51.50:036][368]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.51.50:036][368]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.51.50:365][406]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.51.50:404][407]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.51.50:404][407]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.51.51:137][482]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.51.51:137][482]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.51.51:137][482]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.51.51:137][482]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.51.53:455][754]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.51.53:499][755]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.51.53:499][755]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.51.54:247][835]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.51.54:247][835]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.51.54:247][835]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.51.54:247][835]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.51.54:886][911]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.51.54:922][912]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.51.54:922][912]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.51.55:627][978]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.51.55:627][978]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.51.55:627][978]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.51.55:627][978]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.51.57:733][227]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.51.57:770][228]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.51.57:770][228]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.51.58:479][302]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.51.58:514][303]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.51.58:514][303]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.51.59:238][375]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.51.59:238][375]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.51.59:238][375]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.51.59:238][375]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.51.59:741][434]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.51.59:777][435]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.51.59:777][435]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.52.00:521][515]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.52.00:521][515]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.52.00:521][515]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.52.00:521][515]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.52.02:425][740]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.52.02:456][741]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.52.02:456][741]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.52.03:164][810]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.52.03:164][810]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.52.03:165][810]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.52.03:165][810]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.52.03:494][848]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.52.03:525][849]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.52.03:525][849]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.52.04:257][924]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.52.04:273][924]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.07.15-19.52.04:301][925]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.52.04:301][925]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.52.05:042][997]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.52.05:042][997]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.52.05:042][997]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.52.05:042][997]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.52.06:441][162]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.52.06:477][163]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.52.06:477][163]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.52.07:198][232]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.52.07:198][232]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.52.07:198][232]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.52.07:198][232]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.52.10:663][633]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.52.10:681][633]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.07.15-19.52.10:717][634]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.52.10:717][634]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.52.11:430][694]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.52.11:430][694]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.52.11:430][694]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.52.11:431][694]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.52.12:191][782]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.52.12:207][782]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.52.12:207][782]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.52.12:232][782]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.07.15-19.52.12:239][782]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionBumpOffset_0, compiling. 
+[2019.07.15-19.52.12:947][845]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.52.12:947][845]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.52.12:947][845]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.52.12:947][845]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.52.14:579][ 34]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.52.14:639][ 35]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.52.14:639][ 35]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.52.15:368][113]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.52.15:368][113]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.52.15:368][113]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.52.15:368][113]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.52.18:117][439]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.52.18:152][440]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.52.18:152][440]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.52.18:875][513]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.52.18:875][513]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.52.18:875][513]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.52.18:875][513]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.52.19:280][560]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.52.19:318][561]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.52.19:318][561]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.52.20:024][637]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.52.20:024][637]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.52.20:024][637]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.52.20:024][637]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.52.20:533][697]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.52.20:566][698]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.52.20:566][698]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.52.21:266][767]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.52.21:266][767]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.52.21:266][767]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.52.21:266][767]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.52.22:499][911]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.52.22:536][912]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.52.22:536][912]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.52.23:265][986]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.52.23:265][986]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.52.23:265][986]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.52.23:265][986]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.52.57:422][667]LogUObjectHash: Compacting FUObjectHashTables data took   6.37ms
+[2019.07.15-19.52.57:422][667]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestLevel' took 0.097
+[2019.07.15-19.52.57:424][667]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/KGPlayerControllerBase] ([1] browsable assets)...
+[2019.07.15-19.52.57:424][667]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/KGPlayerControllerBase]
+[2019.07.15-19.52.57:498][667]LogSavePackage: Moving '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Saved/KGPlayerControllerBase_Auto2DA85D18E48D772AD99A152A958256827.tmp' to '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Saved/Autosaves/Game/Blueprints/KGPlayerControllerBase_Auto2.uasset'
+[2019.07.15-19.52.57:501][667]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Weapons/S_Sword_Basic] ([1] browsable assets)...
+[2019.07.15-19.52.57:528][667]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Weapons/S_Sword_Basic.S_Sword_Basic]
+[2019.07.15-19.52.57:528][667]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Weapons/S_Sword_Basic]
+[2019.07.15-19.52.57:552][667]LogSavePackage: Moving '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Saved/S_Sword_Basic_Auto2BB0F869C43FBCFFE033B4CBA0D7CA92F.tmp' to '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Saved/Autosaves/Game/Assets/Weapons/S_Sword_Basic_Auto2.uasset'
+[2019.07.15-19.52.57:558][667]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Weapons/M_Weapons_Metal] ([1] browsable assets)...
+[2019.07.15-19.52.57:575][667]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/Weapons/M_Weapons_Metal.M_Weapons_Metal]
+[2019.07.15-19.52.57:575][667]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Weapons/M_Weapons_Metal]
+[2019.07.15-19.52.57:591][667]LogSavePackage: Moving '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Saved/M_Weapons_Metal_Auto27FA1068841251EBC0A84828962022C2A.tmp' to '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Saved/Autosaves/Game/Assets/Weapons/M_Weapons_Metal_Auto2.uasset'
+[2019.07.15-19.52.57:594][667]LogFileHelpers: Auto-saving content packages took 0.171
+[2019.07.15-19.53.20:156][816]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.53.20:186][817]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.53.20:186][817]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.53.21:798][  2]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.53.21:798][  2]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.53.21:798][  2]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.53.21:798][  2]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.53.23:785][238]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.53.23:811][239]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.53.23:811][239]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.53.24:587][319]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.53.24:588][319]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.53.24:588][319]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.53.24:588][319]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.53.25:638][443]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.53.25:671][444]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.53.25:671][444]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.53.27:234][612]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.53.27:256][613]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.53.27:256][613]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.53.28:011][684]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.53.28:011][684]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.53.28:011][684]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.53.28:011][684]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.53.30:444][974]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.53.30:462][974]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.53.30:485][976]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.53.30:485][976]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.53.31:249][ 59]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.53.31:249][ 59]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.53.31:249][ 59]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.53.31:250][ 59]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.53.31:538][ 93]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.53.31:559][ 94]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.53.31:559][ 94]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.53.32:321][169]MaterialEditorStats: Base pass shader: 109 instructions
+[2019.07.15-19.53.32:321][169]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2019.07.15-19.53.32:321][169]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.53.32:321][169]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.53.33:821][348]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.53.33:839][348]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.53.33:862][349]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.53.33:862][349]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.53.34:476][409]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.53.34:490][409]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.53.34:577][416]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.53.35:250][485]MaterialEditorStats: Base pass shader: 110 instructions
+[2019.07.15-19.53.35:250][485]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 184 instructions
+[2019.07.15-19.53.35:250][485]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.53.35:250][485]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.53.41:286][618]LogMaterialEditor: Applying material M_Weapons_Metal
+[2019.07.15-19.53.42:112][618]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.53.42:167][618]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.53.42:167][618]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.53.42:201][618]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.53.42:228][618]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.53.42:336][618]LogUObjectHash: Compacting FUObjectHashTables data took   9.35ms
+[2019.07.15-19.53.42:355][618]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.07.15-19.53.42:880][618]TextureStreamingBuild: Display: Compiling optional shaders took 0.543 seconds.
+[2019.07.15-19.53.42:939][618]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2019.07.15-19.53.45:604][886]MaterialEditorStats: Base pass shader: 110 instructions
+[2019.07.15-19.53.45:604][886]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 184 instructions
+[2019.07.15-19.53.45:604][886]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.53.45:604][886]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.53.48:342][209]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.53.48:358][209]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.53.48:378][210]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.53.48:378][210]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.53.49:002][275]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.53.49:026][276]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.53.49:026][276]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.53.49:708][333]LogMaterialEditor: Saving and Compiling material M_Weapons_Metal
+[2019.07.15-19.53.50:293][333]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.53.50:349][333]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.53.50:349][333]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.53.50:363][333]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.53.50:384][333]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.53.50:466][333]LogUObjectHash: Compacting FUObjectHashTables data took   4.69ms
+[2019.07.15-19.53.50:482][333]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.07.15-19.53.51:003][333]TextureStreamingBuild: Display: Compiling optional shaders took 0.536 seconds.
+[2019.07.15-19.53.51:059][333]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2019.07.15-19.53.53:683][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/M_Weapons_Metal" FILE="../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Content/Assets/Weapons/M_Weapons_Metal.uasset" SILENT=true
+[2019.07.15-19.53.53:701][333]LogSavePackage: Moving '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Saved/M_Weapons_Metal685374AC4CFCF620CA1F63BA16E0F44F.tmp' to '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Content/Assets/Weapons/M_Weapons_Metal.uasset'
+[2019.07.15-19.53.53:723][333]MaterialEditorStats: Base pass shader: 110 instructions
+[2019.07.15-19.53.53:723][333]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 184 instructions
+[2019.07.15-19.53.53:723][333]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.53.53:723][333]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.53.57:957][640]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.53.57:973][640]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.53.57:998][641]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.53.57:998][641]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.53.58:765][714]MaterialEditorStats: Base pass shader: 110 instructions
+[2019.07.15-19.53.58:765][714]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 184 instructions
+[2019.07.15-19.53.58:765][714]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.53.58:765][714]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.53.58:977][738]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.53.59:002][740]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.53.59:002][740]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.53.59:049][745]LogMaterialEditor: Saving and Compiling material M_Weapons_Metal
+[2019.07.15-19.53.59:740][745]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.53.59:793][745]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.53.59:793][745]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.53.59:833][745]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.53.59:860][745]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.53.59:953][745]LogUObjectHash: Compacting FUObjectHashTables data took   5.23ms
+[2019.07.15-19.53.59:968][745]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.07.15-19.54.00:481][745]TextureStreamingBuild: Display: Compiling optional shaders took 0.528 seconds.
+[2019.07.15-19.54.00:538][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2019.07.15-19.54.03:145][745]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/M_Weapons_Metal" FILE="../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Content/Assets/Weapons/M_Weapons_Metal.uasset" SILENT=true
+[2019.07.15-19.54.03:176][745]LogSavePackage: Moving '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Saved/M_Weapons_MetalFAF4535341DB497C14C92092C065EEC1.tmp' to '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Content/Assets/Weapons/M_Weapons_Metal.uasset'
+[2019.07.15-19.54.28:767][134]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/Assets/Knight/Skeleton_KnightGirl.Skeleton_KnightGirl
+[2019.07.15-19.54.28:776][134]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.15-19.54.28:800][134]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.07.15-19.54.29:136][135]LogRenderer: Reallocating scene render targets to support 1208x884 Format 10 NumSamples 1 (Frame:1).
+[2019.07.15-19.55.14:222][ 24]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-19.55.43:259][584]Cmd: TRANSACTION UNDO
+[2019.07.15-19.55.43:259][584]LogEditorTransaction: Undo Translate Socket
+[2019.07.15-19.55.43:563][584]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.15-19.55.43:564][584]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.15-19.55.43:579][584]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-19.55.43:594][584]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.15-19.55.43:605][584]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-19.55.43:605][584]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-19.55.45:276][700]MaterialEditorStats: Base pass shader: 110 instructions
+[2019.07.15-19.55.45:276][700]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 184 instructions
+[2019.07.15-19.55.45:276][700]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.07.15-19.55.45:276][700]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.15-19.55.47:943][985]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-19.56.11:452][648]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-19.56.19:548][386]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-19.56.19:653][394]LogSavePackage: Moving '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Saved/Skeleton_KnightGirl127523B74A82B79E930708B4B590C27C.tmp' to '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Content/Assets/Knight/Skeleton_KnightGirl.uasset'
+[2019.07.15-20.02.58:087][918]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2019.07.15-20.02.58:087][918]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestLevel' took 0.067
+[2019.07.15-20.02.58:088][918]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Knight/KnightAttackMontage] ([1] browsable assets)...
+[2019.07.15-20.02.58:109][918]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/Assets/Knight/KnightAttackMontage.KnightAttackMontage]
+[2019.07.15-20.02.58:109][918]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Knight/KnightAttackMontage]
+[2019.07.15-20.02.58:147][918]LogSavePackage: Moving '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Saved/KnightAttackMontage_Auto367A5FDED46EB72AFE1492F8587123928.tmp' to '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Saved/Autosaves/Game/Assets/Knight/KnightAttackMontage_Auto3.uasset'
+[2019.07.15-20.02.58:149][918]LogFileHelpers: Auto-saving content packages took 0.061
+[2019.07.15-20.14.22:947][474]LogSavePackage: Moving '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Saved/KGPlayerControllerBaseE19FB65D48F640160014469D587E5753.tmp' to '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Content/Blueprints/KGPlayerControllerBase.uasset'
+[2019.07.15-20.15.49:298][245]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	AB_Knight_Child_C /Engine/Transient.World_18:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AB_Knight_Child_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:00EE
+[2019.07.15-20.15.49:298][245]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_Knight_Child_C /Engine/Transient.World_18:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AB_Knight_Child_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:011C
+[2019.07.15-20.15.50:349][344]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Assets/Knight/AB_Knight_Child.AB_Knight_Child
+[2019.07.15-20.15.50:362][344]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.15-20.15.50:363][344]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	AB_Knight_Child_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.AB_Knight_Child_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:00EE
+[2019.07.15-20.15.50:363][344]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_Knight_Child_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.AB_Knight_Child_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:011C
+[2019.07.15-20.15.50:784][344]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.07.15-20.15.51:066][344]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	AB_Knight_Child_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.AB_Knight_Child_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:00EE
+[2019.07.15-20.15.51:066][344]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_Knight_Child_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.AB_Knight_Child_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:011C
+[2019.07.15-20.15.51:178][345]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	AB_Knight_Child_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.AB_Knight_Child_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:00EE
+[2019.07.15-20.15.51:178][345]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_Knight_Child_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.AB_Knight_Child_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:011C
+[2019.07.15-20.15.51:186][346]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	AB_Knight_Child_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.AB_Knight_Child_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:00EE
+[2019.07.15-20.15.51:186][346]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_Knight_Child_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.AB_Knight_Child_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:011C
+[2019.07.15-20.15.51:195][347]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	AB_Knight_Child_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.AB_Knight_Child_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:00EE
+[2019.07.15-20.15.51:195][347]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_Knight_Child_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.AB_Knight_Child_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:011C
+[2019.07.15-20.15.51:203][348]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	AB_Knight_Child_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.AB_Knight_Child_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:00EE
+[2019.07.15-20.15.51:203][348]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_Knight_Child_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.AB_Knight_Child_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:011C
+[2019.07.15-20.15.51:211][349]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	AB_Knight_Child_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.AB_Knight_Child_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:00EE
+[2019.07.15-20.15.51:211][349]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_Knight_Child_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.AB_Knight_Child_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:011C
+[2019.07.15-20.15.51:220][350]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	AB_Knight_Child_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.AB_Knight_Child_C_0
+	Function /Game/Assets/Knight/AB_Knight.AB_Knight_C:ExecuteUbergraph_AB_Knight:00EE
+[2019.07.15-20.15.55:715][879]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/Assets/Knight/SK_KnightGirl.SK_KnightGirl
+[2019.07.15-20.15.55:723][879]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.15-20.15.55:751][879]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.07.15-20.16.14:964][995]LogUObjectHash: Compacting FUObjectHashTables data took   4.76ms
+[2019.07.15-20.16.17:381][995]LogSlate: Window 'Delete Assets' being destroyed
+[2019.07.15-20.16.18:789][995]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.07.15-20.16.20:179][995]LogSlate: Window 'Message' being destroyed
+[2019.07.15-20.16.20:884][995]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-20.16.20:941][995]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.15-20.16.20:941][995]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.15-20.16.20:959][995]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-20.16.20:978][995]LogMaterial: Display: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2019.07.15-20.16.21:194][995]LogUObjectHash: Compacting FUObjectHashTables data took   8.87ms
+[2019.07.15-20.16.21:207][995]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.07.15-20.16.22:410][995]TextureStreamingBuild: Display: Compiling optional shaders took 1.216 seconds.
+[2019.07.15-20.16.22:616][995]LogUObjectHash: Compacting FUObjectHashTables data took   7.59ms
+[2019.07.15-20.16.23:228][995]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Assets/Knight/AB_Knight_Child.AB_Knight_Child
+[2019.07.15-20.16.25:361][995]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2019.07.15-20.16.28:760][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2019.07.15-20.16.28:760][ 47]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestLevel' took 0.041
+[2019.07.15-20.16.28:761][ 47]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Weapons/M_Weapons_Metal] ([1] browsable assets)...
+[2019.07.15-20.16.28:777][ 47]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/Weapons/M_Weapons_Metal.M_Weapons_Metal]
+[2019.07.15-20.16.28:777][ 47]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Weapons/M_Weapons_Metal]
+[2019.07.15-20.16.28:809][ 47]LogSavePackage: Moving '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Saved/M_Weapons_Metal_Auto4CD1A5BB44F12FEA38470EABAFE92D34B.tmp' to '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Saved/Autosaves/Game/Assets/Weapons/M_Weapons_Metal_Auto4.uasset'
+[2019.07.15-20.16.28:812][ 47]LogFileHelpers: Auto-saving content packages took 0.051
