@@ -1215,3 +1215,19 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.07.15-20.16.28:777][ 47]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Weapons/M_Weapons_Metal]
 [2019.07.15-20.16.28:809][ 47]LogSavePackage: Moving '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Saved/M_Weapons_Metal_Auto4CD1A5BB44F12FEA38470EABAFE92D34B.tmp' to '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Saved/Autosaves/Game/Assets/Weapons/M_Weapons_Metal_Auto4.uasset'
 [2019.07.15-20.16.28:812][ 47]LogFileHelpers: Auto-saving content packages took 0.051
+[2019.07.15-20.21.00:646][125]LogAssetEditorManager: Opening Asset editor for AnimMontage /Game/Assets/Knight/KnightAttackMontage_Child.KnightAttackMontage_Child
+[2019.07.15-20.21.00:654][125]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.15-20.21.00:680][125]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.07.15-20.21.01:016][125]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.07.15-20.21.13:194][362]LogSlate: Window 'KnightAttackMontage_Child' being destroyed
+[2019.07.15-20.22.00:012][682]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2019.07.15-20.22.01:125][682]LogSlate: Window 'Delete Assets' being destroyed
+[2019.07.15-20.22.01:129][682]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Assets/Knight/KnightAttackMontage_Child.KnightAttackMontage_Child
+[2019.07.15-20.22.01:576][682]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2019.07.15-20.22.03:459][889]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2019.07.15-20.22.03:520][889]LogSavePackage: Moving '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Saved/KnightAttackMontage8C8DF39F49ECDF879475D1AE65390FF4.tmp' to '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Content/Assets/Knight/KnightAttackMontage.uasset'
+[2019.07.15-20.22.03:528][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/S_Sword_Basic" FILE="../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Content/Assets/Weapons/S_Sword_Basic.uasset" SILENT=true
+[2019.07.15-20.22.03:547][889]LogSavePackage: Moving '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Saved/S_Sword_Basic1C6BE2D8497A88DB615658B2F09F46BE.tmp' to '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Content/Assets/Weapons/S_Sword_Basic.uasset'
+[2019.07.15-20.22.03:563][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/M_Weapons_Metal" FILE="../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Content/Assets/Weapons/M_Weapons_Metal.uasset" SILENT=true
+[2019.07.15-20.22.03:585][889]LogSavePackage: Moving '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Saved/M_Weapons_MetalE0A7464242050F3E40E805AA8D373463.tmp' to '../../../../../../Users/dmann/Documents/UE4-SurvivalGame/SurvivalGame/Content/Assets/Weapons/M_Weapons_Metal.uasset'
